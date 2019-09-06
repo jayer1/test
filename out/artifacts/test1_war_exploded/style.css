@@ -1,0 +1,124 @@
+.navigation {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 100px 150px 200px;
+  font-size: 25px;
+}
+
+.header{
+  display:inline;
+  font-size: 16px;
+}
+
+.header h1{
+  float:left;
+  vertical-align: middle;
+}
+
+.main {
+  margin-left: 50px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 600px;
+  font-size: 25px;
+}
+
+.formy {
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 400px;
+}
+
+.padded{
+  margin-top: 10px;
+}
+
+.sizingAndMargins {
+  display: inline-block;
+  text-align:left;
+  font-size: 32px;
+}
+
+.details{
+  text-align: center;
+}
+
+.formattedList {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  
+}
+
+.wrapper1 {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid black;
+  
+}
+
+.item{
+  background-color: #58d5f6;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item:nth-child(even){
+  background: #236fc8;
+}
+
+.vertalign {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.centered{
+  text-align: center;
+}
+
+.align{
+  vertical-align: middle;
+  font-size: 28px;
+}
+
+button{
+  font-size: 28px;
+}
+
+.sizing{
+  font-size: 25px;
+}
+
+#registration{
+  margin-left: 50px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: cornsilk;
+  border-style: solid;
+  border-radius: 25px;
+  
+}
+
+.whiteText{
+  text-decoration-color: white;
+  color: white;
+}
